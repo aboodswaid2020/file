@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+  }
+
+.First{
+    text-align: center;
+    font-size: 1.75em;
+}
+.box1 , .box2 , .box3{
+    width: 30%;
+    height: 20%;
+    border: 1px solid black;
+display: inline-block;
+background-color: rgb(196, 187, 187);
+margin: 8px;}
+.chicken{
+    text-align: center;
+    font-family:'Lucida Sans';
+    width: 30%;
+    height: 20px;
+    border: 1px solid black;
+    float: right;
+background-color:pink;
+}
+.beef{
+    text-align: center;
+    font-family:'Lucida Sans';
+    width: 30%;
+    height: 20px;
+    border: 1px solid black;
+    float: right;
+background-color:red;
+color: white;
+}
+.sushi{
+    text-align: center;
+    font-family:'Lucida Sans';
+    width: 30%;
+    height: 20px;
+    border: 1px solid black;
+    float: right;
+background-color:rgb(225, 225, 80);
+}
+@media only screen and (min-width: 992px) {
+    /* For desktop : */
+
+    .box1,.box2,.box3{
+        width: 30%;
+    }
+  }
+  @media only screen and (max-width: 991px) {
+    /* For tablet phones: */
+    .box3{
+        width: 99%;
+        margin: 10px;
+    }
+    .box1,.box2{
+        width: 47%;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    .box1 , .box2 , .box3{
+        width: 99%;
+        margin: 10px;
+    }
+  }
